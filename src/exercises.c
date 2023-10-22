@@ -79,13 +79,20 @@ int main(int argc, char **argv) {
    }
   //7. Compute the summation of even numbers 1 thru n and print
   //   the result; example (n=5): 2 + 4 = 6
-   
+   int n =5;
+   int even = 0;
+   for(int i =1; i<=n; i++){
+    if(i %2==o){
+      even += i;
+    }
+    printf("%d%d\n",n,even);
+   }
   //8. Write a solution to the following variation of the FizzBuzz
   //   problem.  Print out integers 1 thru n, one to a line, except
   //   that if the integer is divisible by 7 print "Foo" instead.
   //   If the integer is divisible by 11 print "Bar" instead.  If
   //   the integer is divisible by both 7 and 11, print "FooBar"
   //   instead.
-
+    
   return 0;
 }
